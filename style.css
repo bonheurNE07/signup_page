@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content:flex-start;
+    align-items:stretch;
+}
+
+.left-side {
+    max-width: 200px;
+    width: 50%;
+}
+
+.left-side img {
+    background-size: cover;  /* Make the image cover the entire div */
+    background-position: center;  /* Center the background image */
+    background-repeat: no-repeat;  
+}
+
+.right-side{
+    flex: 2;
+    flex-grow: 2;
+}
