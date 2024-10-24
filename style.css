@@ -1,27 +1,22 @@
 * {
     box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
 }
 
 .container {
     display: flex;
-    justify-content:flex-start;
-    align-items:stretch;
+    height: 100vh;
 }
 
-.left-side {
-    max-width: 200px;
+.left-section {
     width: 50%;
 }
 
-.left-side img {
-    background-size: cover;  /* Make the image cover the entire div */
-    background-position: center;  /* Center the background image */
-    background-repeat: no-repeat;  
-}
-
-.right-side{
-    flex: 2;
-    flex-grow: 2;
+.right-section {
+    width: 50%;
 }
